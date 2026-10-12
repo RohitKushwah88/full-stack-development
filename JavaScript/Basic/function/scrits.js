@@ -51,3 +51,12 @@ for (let i = 1; i <= 3; i++) {
 }
 
 
+
+//data type question
+
+//cancel
+
+
+a= 10;
+b=20;
+sum=a+b;

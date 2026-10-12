@@ -3,3 +3,9 @@ function fun1(){
 
 }
 
+
+//data type question
+
+
+
+
