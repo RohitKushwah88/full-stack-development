@@ -121,8 +121,6 @@ header{
 } */
 
 
-
-/* ABOUT SECTION */
 .about-section {
     width: 100%;
     padding: 65px 20px;
@@ -147,7 +145,6 @@ header{
     gap: 50px;
 }
 
-/* LEFT CONTENT */
 .about-content {
     width: 100%;
     min-width: 0;
@@ -242,7 +239,6 @@ header{
     border-radius: 18px;
 }
 
-/* FLOATING CARD */
 .about-card {
     position: absolute;
     bottom: 25px;
@@ -269,7 +265,6 @@ header{
     line-height: 1.7;
 }
 
-/* TABLET */
 @media (max-width: 900px) {
     .about-container {
         gap: 30px;
@@ -284,7 +279,7 @@ header{
     }
 }
 
-/* MOBILE */
+
 @media (max-width: 650px) {
     .about-section {
         padding: 45px 20px;
@@ -313,7 +308,6 @@ header{
     }
 }
 
-/* footer */
 
 .site-footer{
     position: relative;
