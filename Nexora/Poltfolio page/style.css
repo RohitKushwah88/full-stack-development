@@ -12,7 +12,6 @@ body {
     background: white;
 }
 
-/* HEAD */
 header{
     
     align-items: center;
@@ -120,7 +119,6 @@ header{
     height: 300px;
 }
 
-/* footer */
 
 .site-footer{
     position: relative;
@@ -474,8 +472,6 @@ social-links {
 }
 
 
-/* Small Label */
-
 .portfolio-label {
     font-size: 13px;
     letter-spacing: 0.5px;
@@ -493,8 +489,6 @@ social-links {
 }
 
 
-/* Main Heading */
-
 .portfolio-title {
     font-size: clamp(40px, 4.5vw, 65px);
     line-height: 1.05;
@@ -507,7 +501,6 @@ social-links {
 }
 
 
-/* Description */
 
 .portfolio-description {
     max-width: 520px;
@@ -519,16 +512,12 @@ social-links {
 }
 
 
-/* Image */
-
 .portfolio-image img {
     width: 100%;
     max-width: 650px;
     height: auto;
 }
 
-
-/* Tablet Responsive */
 
 @media (max-width: 991px) {
 
@@ -546,8 +535,6 @@ social-links {
 
 }
 
-
-/* Mobile Responsive */
 
 @media (max-width: 767px) {
 
@@ -572,17 +559,12 @@ social-links {
 }
 
 
-
-/* PROJECT SECTION */
-
 .projects-section {
     width: 100%;
     padding: 30px 0 45px;
     background: #ffffff;
 }
 
-
-/* CATEGORY BUTTONS */
 
 .category-btn {
     padding: 10px 27px;

@@ -12,7 +12,6 @@ body {
     background: white;
 }
 
-/* HEAD */
 header{
     
     align-items: center;
@@ -167,11 +166,6 @@ header{
 }
 
 
-
-
-
-/* ================================== */
-
 .sec1-part2{
     font-family: "Josefin Sans", sans-serif;
 }
@@ -184,8 +178,6 @@ header{
     row-gap: 0px;
     column-gap: 20px;
     
-    
-
         
 }
 
@@ -373,7 +365,6 @@ header{
 
 }
 
-/* ============================================================ */
 
 * {
     margin: 0;
@@ -417,7 +408,6 @@ details {
     margin-bottom: 2px;
 }
 
-/* Question */
 summary {
     list-style: none;
     padding: 30px 25px;
@@ -428,12 +418,11 @@ summary {
     position: relative;
 }
 
-/* Default arrow remove */
 summary::-webkit-details-marker {
     display: none;
 }
 
-/* Custom arrow */
+
 summary::after {
     content: "⌄";
     position: absolute;
@@ -441,17 +430,14 @@ summary::after {
     font-size: 25px;
 }
 
-/* Open hone par arrow */
 details[open] summary::after {
     content: "⌃";
 }
 
-/* Open question ka blue color */
 details[open] summary {
     color: #1677c8;
 }
 
-/* Answer */
 details p {
     padding: 0 25px 30px 25px;
     font-size: 18px;
@@ -460,8 +446,6 @@ details p {
     max-width: 1000px;
 }
 
-
-/* footer */
 
 .site-footer{
     position: relative;
