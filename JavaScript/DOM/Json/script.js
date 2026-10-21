@@ -89,22 +89,22 @@ function add_Data(item) {
 
 data.forEach((element) => add_Data(element));
 
-// const student = {
-//   name: "Aarav",
-//   age: 20,
-// };
-// console.log(student);
+const student = {
+  name: "Aarav",
+  age: 20,
+};
+console.log(student);
 
-// student.name = "Manav";
+student.name = "Manav";
 
-// console.log(student);
-// student.subject = "CSE";
+console.log(student);
+student.subject = "CSE";
 
-// console.log(student);
+console.log(student);
 
-// delete student.name;
+delete student.name;
 
-// console.log(student);
+console.log(student);
 
 
 const student1 = {
