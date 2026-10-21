@@ -101,15 +101,167 @@
      </section>
 
      <!-- TAsk Form;'' -->
+    
+     <section class="container py-5" id="contact">
+    <div class="row g-4">
+        <div class="col-lg-7">
+            <span class="badge rounded-pill bg-primary-subtle text-primary mb-3">● SEND A MESSAGE</span>
+            <h2 class="fw-bold mb-4">Tell us about your project</h2>
 
-
-     <section class="container-fluid py-5">
-        <div class= "  m-2 py-3">
-          • SEND A MESSAGE 
-
-          
+            <form id="contactForm">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label for="fullName" class="form-label fw-semibold">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="email" class="form-label fw-semibold">Work Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="company" class="form-label fw-semibold">Company</label>
+                        <input type="text" class="form-control" id="company">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="budget" class="form-label fw-semibold">Estimated Budget</label>
+                        <select class="form-select" id="budget" required>
+                            <option value="" selected disabled>Select a range</option>
+                            <option>Under $1,000</option>
+                            <option>$1,000 – $5,000</option>
+                            <option>$5,000 – $10,000</option>
+                            <option>$10,000 – $25,000</option>
+                            <option>$25,000+</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <label for="service" class="form-label fw-semibold">Service Needed</label>
+                        <select class="form-select" id="service" required>
+                            <option value="" selected disabled>Select a service</option>
+                            <option>Web Design</option>
+                            <option>Web Development</option>
+                            <option>E-commerce</option>
+                            <option>UI/UX Design</option>
+                            <option>SEO & Digital Marketing</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <label for="details" class="form-label fw-semibold">Project Details</label>
+                        <textarea class="form-control" id="details" rows="5" placeholder="Tell us a bit about your goals, timeline, and anything else we should know." required></textarea>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="privacy" required>
+                            <label class="form-check-label small text-secondary" for="privacy">
+                                I agree to the <a href="#privacy-policy" class="text-primary text-decoration-none">Privacy Policy</a> and consent to being contacted about my inquiry.
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary px-4 py-3 fw-semibold">
+                            Send Message <i class="bi bi-send ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
         </div>
-     </section>
+
+        <div class="col-lg-5">
+            <div class="ratio ratio-4x3 mb-4">
+                <iframe src="https://maps.google.com/maps?q=San%20Francisco%2C%20CA&t=&z=11&ie=UTF8&iwloc=&output=embed" title="San Francisco Map" loading="lazy" allowfullscreen></iframe>
+            </div>
+
+            <div class="card bg-dark text-white border-0 rounded-4 p-3">
+                <div class="card-body">
+                    <div class="bg-primary bg-opacity-25 rounded-3 d-flex align-items-center justify-content-center mb-3" style="width:48px;height:48px;">
+                        <i class="bi bi-clock-history fs-4"></i>
+                    </div>
+                    <h5 class="fw-bold mb-3">Office Hours</h5>
+                    <div class="d-flex justify-content-between border-bottom border-secondary py-3 gap-2">
+                        <strong>Monday – Friday</strong>
+                        <span class="text-secondary">9:00 AM – 6:00 PM</span>
+                    </div>
+                    <div class="d-flex justify-content-between border-bottom border-secondary py-3 gap-2">
+                        <strong>Saturday</strong>
+                        <span class="text-secondary">10:00 AM – 2:00 PM</span>
+                    </div>
+                    <div class="d-flex justify-content-between py-3">
+                        <strong>Sunday</strong>
+                        <span class="text-secondary">Closed</span>
+                    </div>
+                    <p class="small text-secondary mt-2 mb-0">All times Pacific Standard Time (PST).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+   
+
+<a href="#contact" class="btn btn-primary rounded-circle position-fixed bottom-0 end-0 m-4">
+    <i class="bi bi-arrow-up"></i>
+</a>
+ 
+  <!-- question work  -->
+
+  <section class="container-fluid py-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-8 col-xl-7 text-center py-lg-4">
+
+            <div class="text-primary fw-bold mb-3" style="font-size:11px;letter-spacing:1.5px;">
+                <i class="bi bi-circle-fill me-1" style="font-size:6px;"></i>
+                BEFORE YOU REACH OUT
+            </div>
+
+            <h2 class="fw-bold mb-5 text-dark">Quick answers</h2>
+
+            <div class="accordion text-start" id="faqAccordion">
+
+                <div class="accordion-item border rounded-3 mb-2 overflow-hidden">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#answerOne" aria-expanded="true">
+                            How soon will I hear back?
+                        </button>
+                    </h2>
+                    <div id="answerOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-secondary">
+                            We respond to all inquiries within one business day, usually much sooner.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item border rounded-3 mb-2 overflow-hidden">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#answerTwo" aria-expanded="false">
+                            Do I need a fully scoped brief?
+                        </button>
+                    </h2>
+                    <div id="answerTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-secondary">
+                            No. A rough idea of your goals, requirements, and timeline is enough to get started. We can help you define the scope together.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item border rounded-3 mb-2 overflow-hidden">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#answerThree" aria-expanded="false">
+                            Can we sign an NDA before discussing details?
+                        </button>
+                    </h2>
+                    <div id="answerThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-secondary">
+                            Yes. We can discuss signing a non-disclosure agreement before you share confidential project information.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
  </main>
 
     <footer class="site-footer">
