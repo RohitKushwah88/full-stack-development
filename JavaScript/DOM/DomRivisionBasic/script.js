@@ -70,9 +70,75 @@ b.addEventListener("click",function(){
    b.style.backgroundColor="red"
 })
 
+
+var c= document.querySelector("h3")
+c.addEventListener("click",function(){
+   c.innerHTML="jadu change ho ja ab fata fat"
+   c.style.color="pink"
+   c.style.backgroundColor="green"
+   
+})
+
+
+
+
+
     // for pillar distroy now 
 
-    // MOVE TO GTHE NEXT
+    // MOVE TO THE NEXT Topic
 
+ 
+     var bulb = document.querySelector("#bulb")
+    var btn = document.querySelector("button")
+     var flag=0;
+
+
+     btn.addEventListener("click",function(){
+      if(flag==0){
+         
+         bulb.style.backgroundColor="yellow"
+         console.log("clicked");
+         flag=1;
+         
+      }else{
+         bulb.style.backgroundColor="transparent"
+         console.log("again clicked");
+         flag=0
+         
+      }
+     })
+
+   //   another bulb
+
+   var a = document.querySelector("#bulb1")
+   var btnn= document.querySelector("button")
+
+   var light =0;
+
+   btnn.addEventListener("click",function(){
+      if(light==0){
+
+         bulb1.style.backgroundColor="red"
+         console.log("click");
+         light=1;
+
+         
+      }else{
+         bulb1.style.backgroundColor="transparent"
+         console.log("again clicked");
+         light=0;
+         
+      }
+   })
+     
     
+ let h= document.querySelectorAll("h1")
+ console.log(h);
+ 
+
+ h.forEach(function(e){
+   console.log(e);
+   
+ })
+
  
