@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Todo App</h1>
+
+    <div class="wrapper">
+
+        <form >
+            <input id="todo-input" type="text" placeholder="write anything and hit enter to add" autocomplete="off">
+            <button id="add-button"> ADD </button>
+        </form>
+       
+     <ul id="todo-list">
+        <li id="todo">
+            <input type="checkbox" id="todo-1">
+            <label class="custom-checkbox" for="todo-1"> 
+                <img src="./icon/check_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="check">
+                <!-- <img src="./icon/delete_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="delete"> -->
+            </label>
+
+            <label for="todo-1" class="todo-text">
+                Webdev project with html, css and js
+            </label>
+
+            <button class="delete-button">
+                <img src="./icon/delete_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="delete">
+            </button>
+
+        </li>
+        <li id="todo">
+            <input type="checkbox" id="todo-2">
+            <label class="custom-checkbox" for="todo-2"> 
+                <img src="./icon/check_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24 (1).svg" alt="check">
+                <!-- <img src="./icon/delete_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="delete"> -->
+            </label>
+
+            <label for="todo-1" class="todo-text">
+                Webdev project with html, css and js
+            </label>
+
+            <button class="delete-button">
+                <img src="./icon/delete_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="delete">
+            </button>
+
+        </li>
+     </ul>
+
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
