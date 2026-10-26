@@ -45,6 +45,9 @@ const attpara = document.getElementById("AttendanceNotification");
  child.addEventListener("click",() =>{
     console.log("parents Clicked");
     
- })
+ });
+
+
+
 
 
