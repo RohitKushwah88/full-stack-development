@@ -258,7 +258,7 @@ console.log("Square Root of -25:", Math.sqrt(-25));
  console.log("Cube Root of 27:", Math.cbrt(27));
 
 
-  let sideA = 3; let sideB = 4;
+let sideA = 3; let sideB = 4;
  let hypotenuse = Math.hypot(sideA, sideB); 
  console.log("Triangle Hypotenuse:", hypotenuse); 
  console.log("2 raised to power 3:", 2 ** 3);
@@ -268,12 +268,24 @@ console.log("Square Root of -25:", Math.sqrt(-25));
 
 
 
+  
+  function sum(...n){
+    return n.reduce(( result=0 , num) => (result+= num))
+  }
+
+const result =sum(3,5,6,85,4,3,32);
+ console.log(result);
+ 
 
 
 
+   function mul(...m){
+    return m.reduce((result =0, num) => (result*= num))
+   }
 
 
-
+   const  ans =[4,6,5,4,3,2]; 
+   console.log(...ans);
    
    
 
