@@ -17,11 +17,11 @@ const data = [
       
   },
   {
-     name3: "sagar",
+    name3: "sagar",
     age: 20,
     course:"mech",
     gender: "male",
-     study:[{projectname:"newOne", timeline:6, role:"ppt"}],
+    study:[{projectname:"newOne", timeline:6, role:"ppt"}],
   },
   {
      name4: "abhishek",
@@ -35,7 +35,11 @@ const data = [
 //   console.log(data);
   data[1].age= 34;
   data[2].age =45;
-//   data[3].gender="male2";
+  data[3].study.role=23456;
+  data[3].study.projectname="fghj678";
+  data[3].study.timeline=77;
+
+  data[3].gender="male2";
 
   console.log(data);
 
@@ -44,6 +48,18 @@ var marks= 88;
 
 console.log("student with name:",name1,"secore", marks);
 console.log(`student with name ${name1}`);
+
+ 
+
+  //comment
+    if (testFromData.get("password").length < 8) {
+     document.getElementById("passwordError").innerText =
+      "Password Must Contain 8 Charcaters";
+  }
+  if (testFromData.get("password") !== testFromData.get("cfpassword")) {
+    document.getElementById("cfPasswordError").innerText = "Password Not Match";
+  }
+
 
 
 
