@@ -1,0 +1,107 @@
+body {
+    background-color: #eef2f7;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1150px;
+}
+
+.card {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-header {
+    background: linear-gradient(120deg, #0878e8, #1745b8) !important;
+    padding: 25px;
+}
+
+.card-header h2 {
+    font-size: 28px;
+}
+
+.card-header p {
+    color: #dceaff;
+}
+
+.form-control {
+    padding: 11px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
+}
+
+.table th {
+    color: #26364d;
+    padding: 18px 12px;
+    white-space: nowrap;
+}
+
+.table td {
+    padding: 18px 12px;
+}
+
+.table tbody tr {
+    vertical-align: middle;
+}
+
+.btn {
+    border-radius: 6px;
+}
+
+.btn-primary {
+    background-color: #0878e8;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.password-dots {
+    letter-spacing: 3px;
+}
+
+.site-icon {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.modal-content {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.modal-header {
+    padding: 20px;
+}
+
+.modal-body {
+    padding: 25px;
+}
+
+.modal-footer {
+    padding: 15px 25px;
+}
+
+@media (max-width: 576px) {
+
+    .card-header h2 {
+        font-size: 21px;
+    }
+
+    .card-header {
+        padding: 18px;
+    }
+
+    .card-body {
+        padding: 15px !important;
+    }
+
+    .table {
+        min-width: 650px;
+    }
+
+}
