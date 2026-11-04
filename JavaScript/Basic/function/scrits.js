@@ -1,62 +1,75 @@
 
 
-//  function call./
+// //  function call./
 
 
-function sum(a,b){
-    let c=a+b;
-    console.log(c);
+// function sum(a,b){
+//     let c=a+b;
+//     console.log(c);
     
-}
+// }
 
-sum(5,10);
-
-
-  //function return
+// sum(5,10);
 
 
+//   //function return
 
 
-function calculate(a,b,c ){
-    return a+b-c;
-
-}
-let ans=  calculate(4,8,6);
-console.log(ans);
 
 
-//
+// function calculate(a,b,c ){
+//     return a+b-c;
 
-const greet= function(){
-    console.log("welcome to sirt");
+// }
+// let ans=  calculate(4,8,6);
+// console.log(ans);
+
+
+// //
+
+// const greet= function(){
+//     console.log("welcome to sirt");
     
-};
+// };
 
-greet();
+// greet();
 
 
- const find = function(){
-    console.log("where are you");
+//  const find = function(){
+//     console.log("where are you");
     
- }
- find();
+//  }
+//  find();
 
-// const  
+// // const  
 
        
-for (let i = 1; i <= 3; i++) {
-    for (let j = 1; j <= i; j++) {
-        console.log("*",i);
-    }
+// for (let i = 1; i <= 3; i++) {
+//     for (let j = 1; j <= i; j++) {
+//         console.log("*",i);
+//     }
+// }
+
+
+
+// //data type question
+
+// //cancel
+
+
+// a= 10;
+// b=20;
+// sum=a+b;
+
+
+function abc(b){
+    console.log("hello everyone",b);
+    
 }
+abc(67);
 
-
-
-//data type question
-
-//cancel
-
-
-a= 10;
-b=20;
-sum=a+b;
+function fullSatck(c){
+    console.log("web Development",c);
+    
+}
+fullSatck(65);
