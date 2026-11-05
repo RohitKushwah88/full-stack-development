@@ -1,0 +1,1 @@
+alert("Welocme to my javaScript page!");
