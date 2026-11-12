@@ -11,7 +11,6 @@
 
         const unavailable = document.querySelectorAll(".unavailable");
 
-
         document.getElementById("unavailable").textContent =
             "Unavailable Elements: " + unavailable.length;
 
