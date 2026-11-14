@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Card</title>
+</head>
+<body>
+
+    <div id="courseCard"></div>
+
+    <p id="courseDescription"></p>
+
+    <div id="markupDemo"></div>
+
+    <script>
+        const courseName = "JavaScript";
+        const courseDuration = "3 Months";
+        const courseDescriptionText = "Learn JavaScript from basics to advanced.";
+
+        const courseCard = document.getElementById("courseCard");
+
+        courseCard.innerHTML = `
+            <h2>${courseName}</h2>
+            <p>Duration: ${courseDuration}</p>
+        `;
+
+        const description = document.getElementById("courseDescription");
+
+        description.textContent = courseDescriptionText;
+
+        const markupDemo = document.getElementById("markupDemo");
+
+        markupDemo.textContent = "<strong>JavaScript Training</strong>";
+
+        markupDemo.innerHTML = "<strong>JavaScript Training</strong>";
+    </script>
+
+</body>
+</html>
+    
+</body>
+</html>
