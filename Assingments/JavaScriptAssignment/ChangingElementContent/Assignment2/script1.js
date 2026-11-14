@@ -18,3 +18,5 @@ const courseDescriptionText = "Learn JavaScript from basics to advanced.";
         markupDemo.textContent = "<strong>JavaScript Training</strong>";
 
         markupDemo.innerHTML = "<strong>JavaScript Training</strong>";
+
+        // part 2 tha 
